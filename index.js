@@ -21,7 +21,7 @@ const clientTwitter = new TwitterApi({
 let day = 1;
 async function tweet() {
   let resultat = await clientTwitter.v2.tweet({
-    text: "dara the fart "+ +"("+day+")"
+    text: "dara the fart ("+day+")"
   });
   console.log("tweet numero "+day+" envoyé");
 }
